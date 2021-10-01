@@ -185,6 +185,14 @@
     transform: rotate(-135deg);
     }
 
+    .product-card{
+        min-height: 515px;
+        background: #ffff;
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+
 
 
     /* Extra small devices (phones, 600px and down) */
@@ -209,9 +217,7 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
 }
-
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}
 

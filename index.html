@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn about Beekeeping with us, order up and try the best #1 Honey in the world">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Boban Madzoski">
   <title> Beekeeping </title>
   
   <link rel="icon" href="./img/favicon.ico" type="image/x-icon"/>
@@ -43,7 +46,7 @@
   </div>
 </nav>
 <!--Showcase-->
-<section class="backgroundjumb text-dark pt-5 pb-5 position-relative">
+<section id="home" class="backgroundjumb text-dark pt-5 pb-5 position-relative">
   <div class="container container-head">
     <div class="row">
       <div class="col-md-6">
@@ -77,7 +80,9 @@
     <div class="row text-center g-4">
      <div class="col-md-4">
       <div class="card bg-card-color text-light">
-        <img class="card-img-top" src="./img/honeyjar1.jpg" alt="Card image cap">
+        <div class="product-card">
+        <img class="card-img-top" src="./img/honeyjar2.jpg" alt="Mountain Honey">
+      </div>
         <div class="card-body text-center">
           <h5 class="card-title">Mountain Honey</h5>
           <p class="card-text">Produced in The Mountains of Kozjak</p>
@@ -87,7 +92,9 @@
     </div>
     <div class="col-md-4">
       <div class="card bg-card-color text-light">
-        <img class="card-img-top" src="./img/honeyjar1.jpg" alt="Card image cap">
+        <div class="product-card">
+        <img class="card-img-top" src="./img/honeyjar1.jpg" alt="Honey">
+      </div>
         <div class="card-body text-center">
           <h5 class="card-title">Classic Honey</h5>
           <p class="card-text">Honey Made From Flowers</p>
@@ -97,7 +104,9 @@
     </div>
     <div class="col-md-4">
       <div class="card bg-card-color text-light">
-        <img class="card-img-top" src="./img/honeyjar1.jpg" alt="Card image cap">
+        <div class="product-card">
+        <img class="card-img-top" src="./img/propolis.png" alt="Propolis">
+      </div>
         <div class="card-body text-center">
           <h5 class="card-title">Propolis</h5>
           <p class="card-text">A Resinous Mixture That Honey Bees Produce</p>
@@ -114,7 +123,6 @@
   <div class="row g-5">
     <div class="col-md-5">
       <h2 class="text-center mb-4">Contact Info</h2>
-      <hr>
       <ul class="list-group list-group-flush lead">
         <li class="list-group-item"><span class="fw-bold">Adress: </span>Brvenica, Ul.Cedomir Momiroski 47</li>
         <li class="list-group-item"><span class="fw-bold">Phone: </span>+389-071-222-332</li>
@@ -130,6 +138,19 @@
     </div>
     </div>
 </div>
+</section>
+
+<section>
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="home" class="nav-link px-2 text-muted">Home</a></li>
+      
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+    </ul>
+    <p class="text-center text-muted">© 2021 Beekeeping, Inc</p>
+  </footer>
 </section>
 
 <script
