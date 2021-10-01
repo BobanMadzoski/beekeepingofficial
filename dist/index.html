@@ -119,9 +119,9 @@
   <section class="m-3">
 <div class="container">
   <div class="collapsebtn">
-    <a class="btn btn-primary collapsebtncolor text-align-right mb-3" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    <a class="btn btn-primary collapsebtncolor text-align-right mb-3 rotate" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
       Show all Products
-      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="20" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="20" fill="currentColor" class="bi bi-chevron-double-down thisrotate" viewBox="0 0 16 16">
         <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
         <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
       </svg>
@@ -250,7 +250,9 @@
     $('.animated-icon3').toggleClass('open');
   });
 });</script>
-
+<script>$(".rotate").click(function () {
+  $(".thisrotate").toggleClass("down");
+});</script>
 <script>// Get the modal
 var modal = document.getElementById("myModal"); // Get the button that opens the modal
 
